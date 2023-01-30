@@ -1,5 +1,10 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import LIFI from "@lifi/sdk";
 
-export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
-}
+const Hello = async (req, res) => {
+	try {
+	} catch (err) {
+		console.error(err);
+	}
+};
+
+export default Hello;
